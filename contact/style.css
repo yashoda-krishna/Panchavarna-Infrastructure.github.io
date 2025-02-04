@@ -1,0 +1,100 @@
+/* Hero Section Start */
+.hero {
+  background: url('../img/bg/contact_us.webp');
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80% 0px;
+}
+.hero-heading {
+  background-color: black;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  color: white;
+}
+/* Hero Section End */
+
+/* Get in Touch Start */
+.getintouch{
+  width: 90%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.getintouch-heading{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.getintouch-heading h1{
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.getintouch-heading p{
+  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.628);
+  line-height: 1.5;
+}
+.getintouch-row{
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  color:#00308F
+}
+.getintouch-contact-cards{
+  width: 23%;
+  margin: 1% auto 1%;
+  padding: 26px;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  border: 1px solid transparent;
+  text-align: center;
+  height: 220px;
+  line-height: 2.3;
+  display: block;
+  cursor: pointer;
+}
+.getintouch-icon{
+  align-items: center;
+  margin-bottom: 5px;
+}
+.getintouch-card-content{
+  width: 100%;
+  text-align: center;
+  color:#00308F;
+}
+.getintouch-card-content h3{
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+}
+.getintouch-card-content p{
+  font-size: 1.1rem;
+  line-height: 2;
+}
+.getintouch-card-content a{
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.getintouch-contact-cards:hover {
+  border-color: rgba(0, 0, 0, .08);
+    box-shadow: none;
+}
+
+@media (max-width: 1200px) {
+  .getintouch-contact-cards{
+    width: 45%;
+
+  }
+}
+@media(max-width: 767px) {
+  .getintouch-contact-cards{
+    width: 100%;
+  }
+}
+/* Get in Touch End */
